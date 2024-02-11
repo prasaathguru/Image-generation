@@ -25,6 +25,8 @@ def Imagegeneration(input3):
 
 
 def main():
+    st.set_page_config(
+    page_title="G-AI-IG")
     input3 = st.text_input("Enter the prompt to generate")
     st.write("Sample Image")
     output3 = Imagegeneration(input3)
